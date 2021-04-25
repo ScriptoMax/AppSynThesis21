@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+/*.container-new-ticket {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-new-ticket textarea {
+    height: 200px;
+}*/
+
+#report-form-container {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    font-size: 15px;
+    padding: 15px 0 5px 15px;
+    font-family: Monaco sans-serif;
+    background: #F4F7F9;
+}
+
+#compulsory-filling-note {
+    font-size: 14px;
+    padding-left: 60px;
+}
+
+.compulsory-field-label {
+    color: red;
+    font-size: 18px;
+    font-weight: bolder;
+    position: relative;
+    vertical-align: bottom;
+    bottom: 5px
+}
+
+.report-form-list {
+    margin-bottom: 150px;
+}
+
+.report-form-list li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    list-style-type: none;
+    padding: 0;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.report-form-list > li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.report-form-list li label {
+    font-weight: bolder;
+    flex: 1 0 auto;
+    max-width: 400px;
+    margin-right: 10px;
+    padding: 20px 0 0 60px;
+}
+
+#caller-phone {
+    pointer-events: none;
+    color: #6A7E8B
+}
+
+li input {
+    width: 55%;
+    padding: 2px 5px;
+    height: 40px;
+}
+
+.form-select {
+    width: 55%;
+    min-width: 450px;
+    position: relative;
+    top: 5px;
+    font-size: 15px;
+}
+
+.css-yk16xz-control {
+    height: 40px;
+    min-height: 0;
+    max-height: 40px;
+    box-shadow: none;
+    position: unset;
+    font-size: 15px;
+}
+
+.css-g1d714-ValueContainer {
+    height: 40px;
+    max-height: 40px;
+    padding: 2px 8px;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 2px;
+    outline: none;
+    box-shadow: none;
+    font-size: 15px;
+}
+
+.css-yk16xz-control:focus {
+    max-height: 40px;
+    box-shadow: none;
+    border: 0;
+}
+
+.css-1uccc91-singleValue {
+    max-height: 40px;
+    box-shadow: none;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+#li-issue-start-timestamp,
+#li-contact-time-period,
+#li-involved-employee,
+#li-case-service-select,
+#li-business-unit {
+    margin-bottom: 40px;
+}
+
+#issue-start-timestamp {
+    width: 600px;
+    height: 40px;
+}
+
+.react-date-picker, .react-time-picker {
+    text-align: center;
+    background: white;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+.react-date-picker {
+    width: 25%;
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+.react-time-picker {
+    width: 15%;
+    margin: 0 10px 0 20px;
+}
+
+#contact-time-period {
+    width: 600px;
+    position: relative;
+}
+
+#business-unit {
+    position: relative;
+    top: 10px
+}
+
+textarea {
+    min-width: 450px;
+    min-height: 120px;
+    max-height: 180px;
+    max-width: 55%;
+    width: 55%;
+    padding: 2px 5px;
+}
+
+#label-extended-notes {
+    padding-top: 25px;
+    margin-right: 10px;
+}
+
+#report-form-btns {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+form div button {
+    margin-top: 20px;
+    padding: 4px 10px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form div button:focus {
+    outline: 1px solid #306C95;
+}
+
+#reset-btn {
+    margin-right: 50px;
+    border: 2px solid #4A6377;
+    background: #53728C;
+}
+
+#save-btn {
+    margin-right: 35px;
+    background: #13609F;
+    border: 2px solid #255074;
+}
+
+#auth-fail-item,
+#cancel-ground-item,
+#subcategory-item,
+#service-category-item,
+#service-select-item,
+#enabled-service-select-item,
+#disabled-service-select-item,
+#main-issue-effect-item,
+#equipment-item,
+#li-issue-start-timestamp,
+#issue-origin-region-item,
+#issue-origin-area-item,
+#issue-origin-street-item,
+#issue-origin-building-item,
+#contact-person-item,
+#contact-info-item,
+#li-contact-time-period,
+#li-involved-employee,
+#li-business-unit,
+#store-address-item,
+#li-case-service-select,
+#refunding-amount-item {
+    display: none;
+}

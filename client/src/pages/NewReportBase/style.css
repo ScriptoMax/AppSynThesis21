@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+/*.container-new-ticket {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-new-ticket textarea {
+    height: 200px;
+}*/
+
+.fill-report {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background: #E3F1ED;
+}
+
+.fill-report-sidebar {
+    width: 25%;
+    max-width: 220px;
+    min-width: 200px;
+}
+
+#fill-report-main {
+    width: 100%;
+}
+
+input[type=checkbox]{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+[type="checkbox"]:checked ~ #panel-wrap {
+    transform: translateX(0%);
+}
+
+#panel-wrap {
+    position: fixed;
+    top: 45px;
+    bottom: 0;
+    right: 0;
+    width: 30em;
+    transform: translateX(100%);
+    transition: .3s ease-out;
+    z-index: 9997;
+}
+
+#panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #CBE3DD;
+    color: black;
+    overflow-y: scroll;
+    height: 94vh;
+    padding: 5px;
+    font-size: 12px;
+    word-break: normal;
+    scroll-behavior: smooth;
+}
+
+.toggle-roll {
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Helvetica Neue" sans-serif;
+    font-weight: normal;
+    width: 165px;
+    height: 40px;
+    background: #C4D8BA;
+    display: block;
+    border-radius: 50px;
+    position: fixed;
+    margin: 0 0 30px 25px;
+    padding: 5px 0 0 40px;
+    line-height: 15px;
+    top: 75px;
+}
+
+.toggle-roll:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+input:checked + .toggle-roll {
+    background: #96C97E;
+}
+
+input:checked + .toggle-roll:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+#toggle-roll:active:after {
+    width: 70px;
+}
+
+#btn-dashboard-access {
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    background: #A3D2BE;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    padding: 5px 0 5px 0;
+    margin-left: 25px;
+    height: 50px;
+    width: 160px;
+    box-shadow: 4px 2px 12px rgba(0.35,0,0,0.1), 4px 2px 12px rgba(0.35,0.5,0,0.1);
+    position: fixed;
+    top: 140px
+}
+
+#btn-dashboard-access:hover {
+    background: #C1DEC7;
+}

@@ -1,0 +1,64 @@
+.base-login {
+    width: 100%;
+    background: #B2DDE8;
+}
+
+.component-login {
+    display: flex;
+    max-width: 450px;
+    height: 100vh;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    font-family: Lato sans-serif;
+    background: #B2DDE8;
+}
+
+.component-login .logo img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.component-login form {
+    padding: 0 10px;
+}
+
+.component-login form .link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.component-login .component-link {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.component-login .component-link .link {
+    width: 40%;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #AAA;
+    transition: color 0.5s;
+}
+
+#login-submit-btn {
+    color: #171a1d;
+    width: 100%;
+    background: #0991B2;
+    cursor: pointer;
+    border: 0;
+}
+
+#login-submit-btn:hover {
+    background: #12B0D7;
+}
+
+.component-login .component-link .link:hover {
+    color: #000;
+}

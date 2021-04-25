@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+.container-dashboard {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-dashboard .menu-sidebar {
+    width: 20%;
+    /*max-width: 240px;
+    min-width: 220px;*/
+    background-color: #E3F1ED;
+    padding: 0 0 0 25px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.container-dashboard .content-dashboard {
+    width: 100%;
+    background: #E8F5F1;
+}
+
+.container-dashboard .menu-body {
+    padding: 0 10px;
+    border-radius: 8px;
+    margin-top: 0;
+}
+
+.container-dashboard .menu-body h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container-dashboard .menu-body ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+#btn-session-control {
+    color: black;
+    font-kerning: auto;
+    font-family: 'Lato', sans-serif;
+    margin: 30px 0 25px 0;
+    font-size: 20px;
+    height: 70px;
+    width: 160px;
+    border-radius: 15px;
+    border: none;
+    background: #4FA93A;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+    cursor: pointer;
+    position: fixed;
+}
+
+#btn-session-control:hover {
+    color: black;
+    background-color: #5EC033;
+}
+
+#btn-live-report {
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    background: #A3D2BE;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    padding: 5px;
+    height: 50px;
+    width: 160px;
+    box-shadow: 4px 2px 12px rgba(0.35,0,0,0.1), 4px 2px 12px rgba(0.35,0.5,0,0.1);
+    transition: all 0.5s;
+    position: fixed;
+    top: 160px
+}
+
+#btn-live-report span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.35s;
+}
+
+#btn-live-report span:after {
+    /*content: '»';*/
+    content: '>>';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.35s;
+}
+
+#btn-live-report:hover {
+    background: #C1DEC7;
+}
+
+#btn-live-report:hover span:after {
+    opacity: 1;
+    right: 0;
+}

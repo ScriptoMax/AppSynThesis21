@@ -1,0 +1,84 @@
+.container-list-reports {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+    background-color: #EFF4F3;
+    font-family: Roboto sans-serif;
+}
+
+.container-list-reports table {
+    width: 100%;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.report-modal {
+    z-index: 9999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 60%;
+    min-height: 90%;
+    padding: 0;
+    border-radius: 20px;
+    border: 0;
+    transform: translate(-50%, -50%);
+    background: ghostwhite;
+}
+
+.bg {
+    z-index: 9998;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3)
+}
+
+#report-detail-link {
+    color: #123952;
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.modal-table-container {
+    width: 100%;
+    height: 90%;
+    max-height: 80vh;
+    padding: 5px 25px 5px 25px;
+    font-family: Roboto sans-serif;
+    overflow-y: auto
+}
+
+#modal-table-base {
+    width: 100%;
+    max-height: 80vh;
+    font-size: 14px;
+}
+
+#report-caption {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+#btn-close-modal {
+    width: 125px;
+    background: #BECED8;
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    font-family: Montserrat sans-serif;
+    font-size: 16px;
+    color: black;
+    border: 0;
+    border-radius: 20px;
+}

@@ -1,0 +1,55 @@
+{
+  "name": "app_helpdesk_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "basic-react-timepicker": "^1.0.0",
+    "bootstrap": "^4.4.1",
+    "date-fns": "^2.19.0",
+    "moment": "^2.29.1",
+    "prop-types": "^15.7.2",
+    "rc-time-picker": "^3.7.3",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
+    "react-bootstrap-datetimepicker": "0.0.22",
+    "react-date-picker": "^8.1.1",
+    "react-datetime": "^3.0.4",
+    "react-datetime-picker": "^3.2.0",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.9.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-select": "^4.3.0",
+    "react-time-picker": "^4.2.1",
+    "reconnecting-websocket": "^4.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
